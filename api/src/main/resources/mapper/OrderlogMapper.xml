@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.OrderlogMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.Orderlog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="bike_id" jdbcType="VARCHAR" property="bikeId" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="mileage" jdbcType="REAL" property="mileage" />
+    <result column="duration" jdbcType="INTEGER" property="duration" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="start_time" jdbcType="INTEGER" property="startTime" />
+    <result column="finish_time" jdbcType="INTEGER" property="finishTime" />
+    <result column="standard_cost" jdbcType="REAL" property="standardCost" />
+    <result column="actual_cost" jdbcType="REAL" property="actualCost" />
+    <result column="trace" jdbcType="LONGVARCHAR" property="trace" />
+  </resultMap>
+</mapper>

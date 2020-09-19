@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.CityMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.City">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="use_mode" jdbcType="VARCHAR" property="useMode" />
+    <result column="op_mode" jdbcType="VARCHAR" property="opMode" />
+    <result column="leader" jdbcType="VARCHAR" property="leader" />
+    <result column="op_time" jdbcType="INTEGER" property="opTime" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+  </resultMap>
+</mapper>

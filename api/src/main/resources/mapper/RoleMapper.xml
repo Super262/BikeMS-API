@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.RoleMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.Role">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="create_time" jdbcType="INTEGER" property="createTime" />
+    <result column="authorize_time" jdbcType="INTEGER" property="authorizeTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="menus" jdbcType="LONGVARCHAR" property="menus" />
+  </resultMap>
+</mapper>
